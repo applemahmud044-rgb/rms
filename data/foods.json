@@ -1,0 +1,202 @@
+[
+    {
+        "id": 1,
+        "title": "Classic Burger",
+        "description": "Juicy grilled beef burger with cheese",
+        "price": 8,
+        "image": "https://images.unsplash.com/photo-1550547660-d9450f859349",
+        "popular": false
+    },
+    {
+        "id": 2,
+        "title": "Pepperoni Pizza",
+        "description": "Cheesy pizza with spicy pepperoni",
+        "price": 12,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+        "popular": false
+    },
+    {
+        "id": 3,
+        "title": "Creamy Pasta",
+        "description": "Italian white sauce pasta",
+        "price": 10,
+        "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe",
+        "popular": false
+    },
+    {
+        "id": 4,
+        "title": "Fresh Salad",
+        "description": "Healthy vegetable salad bowl",
+        "price": 6,
+        "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+        "popular": false
+    },
+    {
+        "id": 5,
+        "title": "Grilled Chicken",
+        "description": "Smoky grilled chicken breast",
+        "price": 11,
+        "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
+        "popular": true
+    },
+    {
+        "id": 6,
+        "title": "BBQ Burger",
+        "description": "Burger with BBQ sauce",
+        "price": 9,
+        "image": "https://images.unsplash.com/photo-1550547660-d9450f859349",
+        "popular": false
+    },
+    {
+        "id": 7,
+        "title": "Veggie Pizza",
+        "description": "Pizza with fresh vegetables",
+        "price": 11,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+        "popular": false
+    },
+    {
+        "id": 8,
+        "title": "Spaghetti Bolognese",
+        "description": "Pasta with meat sauce",
+        "price": 10,
+        "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe",
+        "popular": false
+    },
+    {
+        "id": 9,
+        "title": "Greek Salad",
+        "description": "Salad with olives and feta",
+        "price": 7,
+        "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+        "popular": false
+    },
+    {
+        "id": 10,
+        "title": "Roast Chicken",
+        "description": "Oven roasted chicken",
+        "price": 13,
+        "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
+        "popular": true
+    },
+    {
+        "id": 11,
+        "title": "Double Cheese Burger",
+        "description": "Extra cheese burger",
+        "price": 10,
+        "image": "https://images.unsplash.com/photo-1550547660-d9450f859349",
+        "popular": false
+    },
+    {
+        "id": 12,
+        "title": "Chicken Pizza",
+        "description": "Pizza topped with chicken",
+        "price": 12,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+        "popular": false
+    },
+    {
+        "id": 13,
+        "title": "Penne Alfredo",
+        "description": "Creamy alfredo pasta",
+        "price": 11,
+        "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe",
+        "popular": false
+    },
+    {
+        "id": 14,
+        "title": "Caesar Salad",
+        "description": "Classic caesar salad",
+        "price": 7,
+        "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+        "popular": false
+    },
+    {
+        "id": 15,
+        "title": "Fried Chicken",
+        "description": "Crispy fried chicken",
+        "price": 12,
+        "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
+        "popular": true
+    },
+    {
+        "id": 16,
+        "title": "Mushroom Burger",
+        "description": "Burger with mushrooms",
+        "price": 9,
+        "image": "https://images.unsplash.com/photo-1550547660-d9450f859349",
+        "popular": false
+    },
+    {
+        "id": 17,
+        "title": "Cheese Pizza",
+        "description": "Extra cheesy pizza",
+        "price": 11,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+        "popular": false
+    },
+    {
+        "id": 18,
+        "title": "Lasagna",
+        "description": "Layered pasta dish",
+        "price": 13,
+        "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe",
+        "popular": false
+    },
+    {
+        "id": 19,
+        "title": "Avocado Salad",
+        "description": "Fresh avocado salad",
+        "price": 8,
+        "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+        "popular": false
+    },
+    {
+        "id": 20,
+        "title": "Spicy Chicken",
+        "description": "Hot spicy chicken",
+        "price": 12,
+        "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
+        "popular": true
+    },
+    {
+        "id": 21,
+        "title": "Bacon Burger",
+        "description": "Burger with crispy bacon",
+        "price": 10,
+        "image": "https://images.unsplash.com/photo-1550547660-d9450f859349",
+        "popular": false
+    },
+    {
+        "id": 22,
+        "title": "Seafood Pizza",
+        "description": "Pizza with seafood toppings",
+        "price": 14,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+        "popular": false
+    },
+    {
+        "id": 23,
+        "title": "Carbonara Pasta",
+        "description": "Creamy carbonara",
+        "price": 12,
+        "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe",
+        "popular": false
+    },
+    {
+        "id": 24,
+        "title": "Fruit Salad",
+        "description": "Mixed fresh fruits",
+        "price": 6,
+        "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+        "popular": false
+    },
+    {
+        "id": 25,
+        "title": "Chicken Wings",
+        "description": "Spicy chicken wings",
+        "price": 11,
+        "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
+        "popular": true
+    }
+]

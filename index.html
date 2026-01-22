@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Management</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow p-4 flex justify-between">
+        <h1 class="text-2xl font-bold text-red-600">FoodHub</h1>
+        <div class="space-x-4">
+
+            <input id="searchInput" type="text" placeholder="Search food..."
+                class="border px-3 py-1 rounded w-40 md:w-64 focus:outline-none focus:ring-2 focus:ring-red-400" />
+
+            <a href="#" class="hover:text-red-500">Home</a>
+
+
+            <a href="#foods" class="hover:text-red-500">Menu</a>
+            <a href="#popular" class="hover:text-red-500">Popular</a>
+            <a href="#contact" class="hover:text-red-500">Contact</a>
+            <a href="cart.html" class="text-red-500 font-semibold">Cart</a>
+            <a href="auth.html">Login</a>
+            <span id="userBox"></span>
+            <button onclick="logout()" class="text-red-500">Logout</button>
+
+        </div>
+    </nav>
+
+    <!-- Slider -->
+    <section class="relative h-64 overflow-hidden">
+        <img id="sliderImage" class="w-full h-full object-cover" />
+        <div
+            class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-white text-3xl font-bold">
+            Get Up To 50% Discount!
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Foods Section -->
+    <section id="foods" class="p-8 max-w-7xl mx-auto">
+        <h2 class="text-3xl font-bold mb-6 text-center">🍽 Our Menu</h2>
+
+
+
+
+        <div id="foodContainer" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"></div>
+
+        <div class="text-center mt-8">
+            <button id="showMoreBtn" class="bg-red-500 hover:bg-red-600 text-white px-6 py-2 rounded-lg">
+                Show More
+            </button>
+        </div>
+    </section>
+
+    <!-- Popular Section -->
+    <section id="popular" class="p-8 max-w-7xl mx-auto bg-gray-50">
+        <h2 class="text-3xl font-bold mb-6 text-center">🔥 Popular Foods</h2>
+
+        <div id="popularContainer" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"></div>
+    </section>
+
+
+    <!-- Why Choose Us -->
+    <section class="p-8 bg-red-50">
+        <h2 class="text-3xl font-bold mb-6">Why Choose Us?</h2>
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-white p-4 rounded shadow">🍔 Fresh Ingredients</div>
+            <div class="bg-white p-4 rounded shadow">🚚 Fast Delivery</div>
+            <div class="bg-white p-4 rounded shadow">⭐ Top Rated Chefs</div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-gray-900 text-white p-6 text-center">
+        <p>© 2026 FoodHub Restaurant</p>
+        <p>Email: contact@foodhub.com</p>
+    </footer>
+
+    <script src="js/slider.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

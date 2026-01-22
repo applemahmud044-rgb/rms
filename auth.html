@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login / Signup</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="min-h-screen flex items-center justify-center bg-gray-100">
+
+    <div class="bg-white shadow-xl rounded-xl w-full max-w-md p-6">
+
+        <h2 id="formTitle" class="text-2xl font-bold text-center mb-6">Login</h2>
+
+        <!-- Login Form -->
+        <form id="loginForm" class="space-y-4" onsubmit="handleLogin(event)">
+            <input id="loginEmail" type="email" placeholder="Email" required class="w-full border p-2 rounded" />
+            <input id="loginPassword" type="password" placeholder="Password" required
+                class="w-full border p-2 rounded" />
+            <button type="submit" class="w-full bg-red-500 text-white py-2 rounded hover:bg-red-600">Login</button>
+        </form>
+
+        <!-- Signup Form -->
+        <form id="signupForm" class="space-y-4 hidden" onsubmit="handleSignup(event)">
+            <input id="signupName" type="text" placeholder="Full Name" required class="w-full border p-2 rounded" />
+            <input id="signupEmail" type="email" placeholder="Email" required class="w-full border p-2 rounded" />
+            <input id="signupPassword" type="password" placeholder="Password" required
+                class="w-full border p-2 rounded" />
+            <button type="submit" class="w-full bg-green-500 text-white py-2 rounded hover:bg-green-600">Create
+                Account</button>
+        </form>
+
+        <p class="text-center mt-4 text-sm">
+            <span id="toggleText">Don't have an account?</span>
+            <button id="toggleBtn" onclick="toggleForm()" class="text-red-500 font-semibold ml-1">Sign up</button>
+        </p>
+
+    </div>
+
+    <script>
+        const loginForm = document.getElementById('loginForm');
+        const signupForm = document.getElementById('signupForm');
+        const formTitle = document.getElementById('formTitle');
+        const toggleText = document.getElementById('toggleText');
+        const toggleBtn = document.getElementById('toggleBtn');
+
+        function toggleForm() {
+            loginForm.classList.toggle('hidden');
+            signupForm.classList.toggle('hidden');
+
+            if (loginForm.classList.contains('hidden')) {
+                formTitle.textContent = 'Sign Up';
+                toggleText.textContent = 'Already have an account?';
+                toggleBtn.textContent = 'Login';
+            } else {
+                formTitle.textContent = 'Login';
+                toggleText.textContent = "Don't have an account?";
+                toggleBtn.textContent = 'Sign up';
+            }
+        }
+
+        function handleLogin(e) {
+            e.preventDefault();
+            localStorage.setItem('loggedIn', 'true');
+            window.location.href = 'index.html';
+        }
+
+        function handleSignup(e) {
+            e.preventDefault();
+            localStorage.setItem('loggedIn', 'true');
+            window.location.href = 'index.html';
+        } {
+            formTitle.textContent = 'Login';
+            toggleText.textContent = "Don't have an account?";
+            toggleBtn.textContent = 'Sign up';
+        }
+
+    </script>
+
+</body>
+
+</html>
